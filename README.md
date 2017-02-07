@@ -1,2 +1,2 @@
 # Serwis-WWW
-social networking site allow users to grade and share favorite books
+social networking site which allow users to grade and share favorite books

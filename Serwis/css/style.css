@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;														/* odstęp między brzegami tekstu a brzegiem danej struktury */
+	text-decoration: none;
+}
+
+body {
+	background-color: grey;								/* tło marginesów po bokach */
+	font-size: 1em;
+	font-family: Verdana, Geneva, sans-serif;						/* szukane kolejno czcionki */
+}
+
+
+header,nav,section,article,aside,footer,hgroup { 
+display: block;														/* wyświetlanie elementu jako składowej bloku */
+}
+
+#wrapper{															/* zaokrąglona obwoluta całości */
+	width: 960px;
+	background-color: #2a3841;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;										/* zaokrąglenie w przypadku mozilli firefox*/
+	-webkit-border-radius: 25px;									/* zaokrąglenie w przypadku chrome */
+}
+
+#main {																/* glowna kolumna po lewej */
+	width: 70%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#sidebar {															/* boczna kolumna po prawej */
+	width: 25%;
+	float: right;
+	padding: 0 15px;
+}
+
+footer {
+	clear: both;
+	padding: 10px 0;
+	border-top: 1px dashed white;
+}
+
+footer p {
+	font-size: .8em;
+	color: white;
+}
+
+header {
+	margin-top: 10px;
+}
+
+header h2 {
+	float: right;
+	padding-top: 10px;
+	color: #3E94D1;
+}
+
+hr {
+	display: block;
+	margin: 10px 0;
+	clear: both;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#menu ul li {
+	padding: 5px 10px;
+	background-color:black;				/* kolor tła linków nad kwadratem */
+	margin-bottom: 2px;
+}
+
+#menu ul li a {
+	color:white;						/* kolor linków nad kwadratem */
+}
+
+#menu ul li a:hover {									/* najechanie myszką na menu podkreśla go */
+	text-decoration: underline;
+}
+
+#przycisk ul li a:hover {								/* najechanie myszką na przycisk podkreśla go */
+	text-decoration: underline;
+}
+
+u,a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+a{
+	color:white;
+}
+
+a#kom {
+	
+	float:right;
+	color:black;
+}
+
+aside#kom{
+
+	margin-left:90px;
+}
+
+#przycisk ul li a
+{
+	padding: 0 15px;
+	background-color:black;				/* kolor tła linków nad kwadratem */
+	margin-bottom:2px;
+	color:white;
+	width:100px;
+	
+}
+
+article#links {
+	margin-bottom: 15xp;
+	padding-left: 15px;
+}
+
+article#links ul {
+	list-style-type: square;
+}
+
+article#links ul li {
+	padding: 5px 0;
+}
+
+article#links ul li a {
+	color:white;						/* kolor linków pod kwadratem */
+}
+
+article#text  {
+color: white;
+}
+
+aside {
+	margin: 20px 0;
+	font-size: .9em;
+	background-color:white;			/* kolor kwadratu po prawej stronie */
+	padding: 10px;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	box-shadow: 3px 3px 3px #000;
+	-moz-box-shadow: 3px 3px 3px #000;
+	-webkit-box-shadow: 3px 3px 3px #000;
+}
+
+
+
+h2, h3 {
+	margin: 20px 0;
+	color: #dee5ea;				/* kolor tytułów nagłówków */
+}
+
+img {
+	float: left;
+	margin-right: 15px;
+}
+
+#main p {
+	color: white;					/* kolor treści nagłówków */
+}
+
+label#dodaj {
+      width: 150px;
+      margin: 5px 0;
+      float: left;
+      clear: left;
+      }
+input#dodaj {
+	width: 300px;
+	float: left;
+}
+input#profil {
+	margin-right:100px;
+	float:right;
+}
+textarea#dodaj {
+	width: 670px;
+	float: left;
+}
+
+textarea#komentarz {
+	width: 400px;
+	float: left;
+}
+
+div#opis {
+	height:280px;
+}
+
+fieldset#komentarz {
+	border: hidden;
+	width: 400px;
+	float: left;
+}
+
+table#zarejestrowani,#obserwowani {
+		height:120px;
+}
+
+table#GlOstOcenione,#MP{
+
+height:325px;
+
+}
+
+table#KatKsiazki{
+
+height:290px;
+
+}
+
+div#listaZarej,#listaObser{
+		float:left;
+		margin:5px;
+}

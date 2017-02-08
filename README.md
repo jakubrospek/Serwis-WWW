@@ -1,2 +1,2 @@
 # Serwis-WWW
-social networking site which allow users to grade and share favorite books
+serwis internetowy pozwalającym użytkownikom na ocenianie i dzielenie się ze znajomymi ulubionymi książkami

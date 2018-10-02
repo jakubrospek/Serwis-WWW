@@ -4,7 +4,6 @@
 
 
 
-
 serwis internetowy pozwalający użytkownikom na ocenianie i dzielenie się ze znajomymi ulubionymi książkami.
 
 

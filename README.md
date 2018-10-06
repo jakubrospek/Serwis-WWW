@@ -7,7 +7,7 @@ użyte technologie(bez żadnych frameworków): PHP, HTML, CSS, MySQL
 
 
 
-serwis internetowy pozwalający użytkownikom na ocenianie i dzielenie się ze znajomymi ulubionymi książkami.
+prototyp serwisu internetowego, pozwalający użytkownikom na ocenianie i dzielenie się ze znajomymi ulubionymi książkami.
 
 
 
